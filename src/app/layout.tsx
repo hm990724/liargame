@@ -6,7 +6,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="ko" className="font-pretendard">
+    <html lang="ko">
       <body>{children}</body>
     </html>
   );
